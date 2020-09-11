@@ -1,4 +1,8 @@
-# ebpf_collection
-Please be patient, I will release (soon ?) my work on eBPF. 
+# A collection of personal eBPF tools
 
-What is it about ? so far it is call systop, and will behave like *top* but for the system calls.
+What is it about ? so far it only contains [calltop](https://github.com/egobillot/calltop). I expect to write other tools related to eBPF. Time will tell.
+
+## calltop
+calltop provides a lightweight real-time view of system calls and traces python function calls.
+
+<img src="https://raw.githubusercontent.com/egobillot/calltop/master/calltop.gif" width="60%">.
